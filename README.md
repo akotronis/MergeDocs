@@ -39,6 +39,8 @@ The merged file is added at the input folder.
 
 A `string_tree` method is implemented for the main class (`PdfMerger`), for testing purposes, which prints info about each node of the file structure above. A node corresponds to each line of the file structure.
 
+![](resources/folders-to-pdf.jpg)
+
 ## Usage
 
 ```
@@ -53,3 +55,8 @@ init_path = tests_folder / 'Book'
 
     pdfm.merge_files()
 ```
+
+## Libraries
+
+- PyPDF2 2.0.0
+- tabulate
