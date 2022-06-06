@@ -33,13 +33,13 @@ is converted to an identical bookmark structure on a single pdf file which is th
 
 with this order. (For each folder, recursively, files are considered first)
 
+![](resources/folders-to-pdf.jpg)
+
 If a watermark file path is provided (single paged file), the watermark is added to every page.
 
 The merged file is added at the input folder.
 
 A `string_tree` method is implemented for the main class (`PdfMerger`), for testing purposes, which prints info about each node of the file structure above. A node corresponds to each line of the file structure.
-
-![](resources/folders-to-pdf.jpg)
 
 ## Usage
 
